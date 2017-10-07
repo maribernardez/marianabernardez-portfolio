@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.pheader {
+    font-family: "Helvetica Neue", "Helvetica", sans-serif;
+    font-size: 1em;
+}
+
+body {
+    font-family: "Helvetica Neue", "Helvetica", sans-serif;
+    font-size: 100%;
+    margin: 0 auto;
+    width: 900px;
+}
+
+.nav-bar {
+
+    background-color: transparent;
+    /*align-content: center;*/
+    float: right;
+    padding-bottom: 200px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.nav-bar-second-pages {
+    float: right;
+    padding-top: 22px;
+}
+
+.nav-bar-second-pages nav {
+    margin-top: 0;
+}
+
+.home-page-banner {
+    margin-top: 5em;
+    text-align: center;
+    
+}
+
+/*
+header {
+}
+*/
+
+nav {
+    margin-top: 5em;
+}
+
+footer {
+    align-content: center;
+    text-align: center;
+}
+
+li {
+    background: black;
+    border: 1px;
+    border-style: solid;
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px;
+    /*
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+*/
+}
+
+.nav-links-general:link {
+    color: black;
+}
+
+.nav-links-general: visited {
+
+    color: lightslategray;
+}
+
+.nav-links:link {
+    /*    background: black;*/
+    color: white;
+    display: inline-block;
+    font-family: "Helvetica Neue", "Helvetica", sans-serif;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 80px;
+}
+
+.nav-links:visited {
+    color: white;
+    text-decoration: none;
+}
+
+article {
+    background-color: transparent;
+    clear: both;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.reference-image {
+    display: block;
+    left: 150px;
+    padding: 10px 10px 15px 0;
+    position: relative;
+    
+}
+
+p {
+    color: black;
+    font-size: .937em;
+    padding: 20px;
+    padding-left: 40px;
+
+}
+
+
+section {
+    text-align: center;
+}
+
+h1 {
+    background-color: transparent;
+    color: black;
+    font-family: "Helvetica Neue", "Helvetica", "sans-serif";
+    font-size:2em.;
+    padding-left: 35px;
+}
+
+h2 {
+    background-color: transparent;
+    color: black;
+    font-family: "Helvetica Neue", "Helvetica", sans-serif;
+    font-size: 1.75em;
+    padding-bottom: 20px;
+    padding-left: 35px;
+    padding-top: 20px;
+}
+
+h3 {
+    background-color: transparent;
+    color: #FFF;
+    font-family: "Helvetica Neue", "Helvetica", sans-serif;
+    font-size: 1.5em;
+    font-style: oblique;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-top: 15px;
+}
+
+h4 {
+    background-color: transparent;
+    color: black;
+    font-family: "Helvetica Neue", "Helvetica", sans-serif;
+    font-size: 1.5em;
+    font-style: oblique;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-top: 15px;
+}
