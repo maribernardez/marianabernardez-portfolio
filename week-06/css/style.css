@@ -69,11 +69,6 @@ address {
     
 }
 
-/*
-header {
-}
-*/
-
 nav {
     margin-top: 5em;
 }
@@ -95,12 +90,6 @@ li {
     display: inline-block;
     list-style-type: none;
     padding: 10px;
-    /*
-    padding-bottom: 10px;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-*/
 }
 
 li:hover {
