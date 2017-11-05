@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.pheader {
+    font-family: "Helvetica Neue", "Helvetica", sans-serif;
+    font-size: 1em;
+}
+
+body {
+    font-family: "Helvetica Neue", "Helvetica", sans-serif;
+    font-size: 100%;
+    margin: 0 auto;
+    width: 900px;
+    text-align: center;
+}
+
+figure {
+    margin: 20px;
+}
+p {
+    color: black;
+    font-size: .937em;
+
+}
+
+.links {
+    color: darkgray;
+    text-decoration: none;
+}
+
+.site-name {
+    
+    font-family: "Helvetica Neue", "Helvetica", sans-serif;
+    font-size: 1em;
+    margin-top: 2em;
+    display: inline-block;
+}
+
+h1 {
+    background-color: transparent;
+    color: black;
+    font-family: "Helvetica Neue", "Helvetica", "sans-serif";
+    font-size:2em.;
+    margin: 20px;
+}
+
+h2 {
+    background-color: transparent;
+    color: black;
+    font-family: "Helvetica Neue", "Helvetica", sans-serif;
+    font-size: 1.75em;
+    background: transparent;
+    border: 2px;
+    border-style: solid;
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px;
+    margin: 30px;
+}
+
+footer {
+    text-align: center;
+    padding-top: 1em;
+    clear: both;
+}
