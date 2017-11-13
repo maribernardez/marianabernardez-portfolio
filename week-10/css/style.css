@@ -1,6 +1,6 @@
 body {
     color: black;
-    font: 1.25em "Helvetica Neue", "Helvetica", sans-serif;
+    font: 1.25em "Montserrat", sans-serif;
     line-height: 1.8;
 
 }
@@ -41,17 +41,18 @@ color: black;
 }
 
 .navbar {
+    background: black;
     border: 0;
     border-radius: 0;
     font-size: 12px;
     letter-spacing: 5px;
     margin-bottom: 0;
-    padding-bottom: 15px;
-    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .navbar-nav li a:hover {
-    color: #1abc9c !important;
+    color: white !important;
 }
 
 .row p {
@@ -71,15 +72,22 @@ color: black;
 h1 {
     background-color: transparent;
     color: black;
-    font-family: "Helvetica Neue", "Helvetica", "sans-serif";
-    font-size:2em.;
+    font-family: "Montserrat" sans-serif;
+    font-size:1em.;
 }
+
+h2 {
+    background-color: black;
+    color: white;
+    font-family: "Montserrat" sans-serif;
+    font-size:1em.;
+} 
 
 h3 {
     background-color: transparent;
     color: black;
     text-align: center;
-    font-family: "Helvetica Neue", "Helvetica", sans-serif;
+    font-family: "Montserrat" sans-serif;
     font-size: 1.5em;
 }
 
