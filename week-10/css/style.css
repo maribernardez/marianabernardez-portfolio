@@ -1,114 +1,88 @@
-* {
-    margin: 0;
-    padding: 0;
+body {
+    color: black;
+    font: 1.25em "Helvetica Neue", "Helvetica", sans-serif;
+    line-height: 1.8;
 
 }
 
-.pheader {
-    font-family: "Helvetica Neue", "Helvetica", sans-serif;
+p {
     font-size: 1em;
 }
 
-body {
-    font-family: "Helvetica Neue", "Helvetica", sans-serif;
-    font-size: 100%;
-    line-height: 1.8;
-    margin: 0 auto;
-    width: 900px;
-    text-align: center;
-    color: black;
+p {
+font-size: 16px;
+}
+   
+
+.container-fluid-monogram {
+text-align: center;
+padding-top:20px;
 }
 
-p {font-size: 16px;}
-.margin {margin-bottom: 45px;}    
-.bg-1 {
-    background-color: whitesmoke;
-    color: white;
+.mybackground1 {
+background-color: white;
 }
 
-.bg-1 {
+.mybackground2 {
+background-color: whitesmoke;
+}
+
+.mybackground3 {
+background-color: white;
+}
+
+.mybackground4 {
+background-color: white;
+}
+
+.mybackground5 {
 background-color: whitesmoke;
 color: black;
 }
 
-.bg-2 {
-background-color: White;
-color: black;
+.navbar {
+    border: 0;
+    border-radius: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    margin-bottom: 0;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
 
-.bg-3 {
-background-color: whitesmoke;
-color: black;
+.navbar-nav li a:hover {
+    color: #1abc9c !important;
 }
 
-.container-fluid {
-margin-top:40px;
-margin-bottom:40px;
+.row p {
+    margin-top: 1em;
 }
 
-img {
-margin-top:10px;
-margin-bottom:10px;
+.carousel-inner > .item > img {
+    margin: auto;
+    width: 100%;
 }
 
-li {
-    background: black;
-    border: 0.1em;
-    border-style: solid;
-    list-style-type: none;
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-top: .5em;
-    padding-bottom: .5em;
+.carousel-inner > .item > a > img {
+    margin: auto;
+    width: 100%;
 }
 
-.nav-links {
-    text-decoration:none;
-    color: white;
-}
-.nav-links:hover {
-text-decoration: none;
-color: darkgray;
-}
-
-.nav-links-general {
-text-decoration: none;
-color: black;
-}
-
-.nav-links-general:hover {
-text-decoration: none;
-color: white;
-}
 h1 {
     background-color: transparent;
     color: black;
     font-family: "Helvetica Neue", "Helvetica", "sans-serif";
     font-size:2em.;
-    margin: 20px;
-}
-
-h2 {
-    background-color: whitesmoke;
-    color: black;
-    font-family: "Helvetica Neue", "Helvetica", sans-serif;
-    font-size: 1.75em;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: 30px;
-    margin-bottom: 30px;
 }
 
 h3 {
     background-color: transparent;
     color: black;
+    text-align: center;
     font-family: "Helvetica Neue", "Helvetica", sans-serif;
     font-size: 1.5em;
-    padding: 10px;
 }
 
 footer {
     text-align: center;
-    padding-top: 1em;
-    clear: both;
 }

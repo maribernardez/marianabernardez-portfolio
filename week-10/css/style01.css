@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.pheader {
+    font-family: "Helvetica Neue", "Helvetica", sans-serif;
+    font-size: 1em;
+    text-align: center;
+}
+
+body {
+    font-family: "Helvetica Neue", "Helvetica", sans-serif;
+    font-size: 100%;
+    line-height: 1.8;
+    margin: 0 auto;
+    width: 900px;
+    text-align: center;
+    color: black;
+}
+
+p {font-size: 16px;}
+.margin {margin-bottom: 45px;}    
+
+.container-fluid {
+text-align: center;
+margin-top:40px;
+margin-bottom:40px;
+
+}
+
+.mybackground1 {
+background-color: red;
+}
+
+.mybackground2 {
+background-color: blue;
+}
+
+.mybackground3 {
+background-color: red;
+}
+
+.mybackground4 {
+background-color: blue;
+}
+
+.mybackground5 {
+background-color: red;
+color: black;
+}
+
+.navbar {
+    border: 0;
+    border-radius: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    margin-bottom: 0;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+h1 {
+    background-color: transparent;
+    color: black;
+    font-family: "Helvetica Neue", "Helvetica", "sans-serif";
+    font-size:2em.;
+    margin: 20px;
+}
+
+h2 {
+    background-color: transparent;
+    color: black;
+    font-family: "Helvetica Neue", "Helvetica", sans-serif;
+    font-size: 1.75em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    background-color: transparent;
+    color: black;
+    text-align: center;
+    font-family: "Helvetica Neue", "Helvetica", sans-serif;
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+}
