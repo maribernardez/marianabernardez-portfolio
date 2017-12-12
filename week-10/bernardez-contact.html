@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+    <title>Mariana Bernardez - Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+                <a class="navbar-brand" href="#">MARIANA BERNARDEZ</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#1">ABOUT</a></li>
+                    <li><a href="#2">WORK</a></li>
+                    <li><a href="#3">CONTACT</a></li>                    
+                </ul>
+            </div>
+        </div>
+    </nav>     
+	<div class="wrapper">
+		<div class="main">
+			<article>
+                <div class="container-fluid mybackground3 text-center">
+				<h2 class="form-heading">LET'S TALK!</h2>
+				<div class="form-text">
+				<p>
+				Get in touch by leaving your message below. Make sure to include your e-mail address so we can talk!
+				</p>
+				</div>
+				<form method="post" action="show-data.php" autocomplete="off">
+					<fieldset>
+							<div class="fields">
+								<p class="row">
+									<label for="first-name">First Name:</label><input type="text" id="first-name" name="first_name" class="field-large" required="required" autofocus="autofocus" />
+								</p>
+								<p class="row">
+									<label for="last-name">Last Name:</label><input type="text" id="last-name" name="last_name" class="field-large" required="required" />
+								</p>
+								<p class="row">
+									<label for="email">Email:</label><input id="email" class="field-large" type="email" placeholder="yourname@example.com" name="email" required="required" />
+								</p>
+								<p class="comment">
+								<label for="comment">Comment:</label>
+								<textarea id="comment" name="comment" cols="20" rows="4" placeholder="(type your comment here and I'll get back to you as soon as possible)" class="field-large"></textarea>
+								</p>
+							</div>	
+					</fieldset>
+					<div class="button-wrapper">
+						<input type="submit" value="Send" class="button" />
+					</div>
+				</form>
+			</article>
+		</div>
+	</div>
+	<footer class="site-info">
+	</footer>		
+</body>
+</html>
+	
