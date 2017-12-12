@@ -1,0 +1,128 @@
+body {
+    color: black;
+    font: 1.25em "Montserrat", sans-serif;
+    line-height: 1.8;
+
+}
+
+p {
+    font-size: 1.3em;
+    text-align: center;
+} 
+
+.page-wrapper {
+    background-color: lightblue;
+    min-height: 20em;
+    padding-bottom: 8em;
+    width: 100%;
+}
+
+.nyc {
+    animation: nyc 1s infinite steps(10);
+    width: 300px;
+    height: 287px;
+    background: url('../img/nyc.png') 0 0;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    animation-name: ant;
+    animation-duration: 4s;
+    animation-iteration-count: 10;
+    transform: translateY(80px) scaleX(1) scaleY(1);
+}
+
+@keyframes ant {
+    100% {
+        background-position: -569px;
+    }
+}
+
+.circle {
+    background: none;
+    border-radius: 100%;
+    height: 28em;
+    margin: 0 auto;
+    max-width: 28em;
+}
+
+.container-fluid-monogram {
+text-align: center;
+padding-top:20px;
+}
+
+.mybackground1 {
+background-color: white;
+}
+
+.mybackground2 {
+background-color: whitesmoke;
+}
+
+.mybackground3 {
+background-color: white;
+}
+
+.mybackground4 {
+background-color: white;
+}
+
+.mybackground5 {
+background-color: whitesmoke;
+color: black;
+}
+
+.navbar {
+    background: black;
+    border: 0;
+    border-radius: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.navbar-nav li a:hover {
+    color: white !important;
+}
+
+.row p {
+    margin-top: 1em;
+}
+
+.carousel-inner > .item > img {
+    margin: auto;
+    width: 100%;
+}
+
+.carousel-inner > .item > a > img {
+    margin: auto;
+    width: 100%;
+}
+
+h1 {
+    background-color: transparent;
+    color: black;
+    font-family: "Montserrat" sans-serif;
+    font-size:1em.;
+}
+
+h2 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: "Montserrat" sans-serif;
+    font-size:1em.;
+} 
+
+h3 {
+    background-color: transparent;
+    color: black;
+    text-align: center;
+    font-family: "Montserrat" sans-serif;
+    font-size: 1.5em;
+}
+
+footer {
+    text-align: center;
+}
