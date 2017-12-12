@@ -80,14 +80,9 @@ color: black;
     margin-top: 1em;
 }
 
-.carousel-inner > .item > img {
+.carousel-inner > img {
     margin: auto;
-    width: 70%;
-}
-
-.carousel-inner > .item > a > img {
-    margin: auto;
-    width: 70%;
+    width: 50%;
 }
 
 h1 {
